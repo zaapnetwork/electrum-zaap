@@ -1,0 +1,17 @@
+# If you want electrum-zaap to appear in a linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install electrum_zaap.desktop
+
+[Desktop Entry]
+Comment=Lightweight zaapnetwork Client
+Exec=electrum-zaap %u
+GenericName[en_US]=Electrum-zaap
+GenericName=Electrum-zaap
+Icon=electrum-zaap
+Name[en_US]=Electrum zaapnetwork Wallet
+Name=Electrum zaapnetwork Wallet
+Categories=Network;
+StartupNotify=false
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/zaapnetwork;
+
